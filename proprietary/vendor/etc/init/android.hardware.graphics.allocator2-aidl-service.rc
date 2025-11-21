@@ -4,4 +4,4 @@ service vendor.graphics.allocator-default /vendor/bin/hw/android.hardware.graphi
     group graphics drmrpc
     capabilities SYS_NICE
     priority -20
-    task_profiles ProcessCapacityMax
+    task_profiles SvpPolicy
