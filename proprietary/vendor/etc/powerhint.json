@@ -2282,6 +2282,450 @@
       "Node": "PMQoSCpuDmaLatency",
       "Duration": 2000,
       "Value": "44"
+    },
+    {
+      "PowerHint": "APP_START",
+      "Node": "CPUBigClusterMaxFreq",
+      "Duration": 0,
+      "Value": "9999999"
+    },
+    {
+      "PowerHint": "APP_START",
+      "Node": "CPUBigClusterMinFreq",
+      "Duration": 0,
+      "Value": "1826000"
+    },
+    {
+      "PowerHint": "APP_START",
+      "Node": "CPUMidClusterMaxFreq",
+      "Duration": 0,
+      "Value": "9999999"
+    },
+    {
+      "PowerHint": "APP_START",
+      "Node": "CPUMidClusterMinFreq",
+      "Duration": 0,
+      "Value": "1836000"
+    },
+    {
+      "PowerHint": "APP_START",
+      "Node": "CPULittleClusterMaxFreq",
+      "Duration": 0,
+      "Value": "9999999"
+    },
+    {
+      "PowerHint": "APP_START",
+      "Node": "CPULittleClusterMinFreq",
+      "Duration": 0,
+      "Value": "1197000"
+    },
+    {
+      "PowerHint": "APP_START",
+      "Node": "CPUBigClusterDownRateLimitUs",
+      "Duration": 0,
+      "Value": "20000"
+    },
+    {
+      "PowerHint": "APP_START",
+      "Node": "CPUMidClusterDownRateLimitUs",
+      "Duration": 0,
+      "Value": "20000"
+    },
+    {
+      "PowerHint": "APP_START",
+      "Node": "CPULittleClusterDownRateLimitUs",
+      "Duration": 0,
+      "Value": "5000"
+    },
+    {
+      "PowerHint": "APP_START",
+      "Node": "MemFreq",
+      "Duration": 0,
+      "Value": "3172000"
+    },
+    {
+      "PowerHint": "APP_START",
+      "Node": "IntFreq",
+      "Duration": 0,
+      "Value": "533000"
+    },
+    {
+      "PowerHint": "APP_START",
+      "Node": "GPUMinFreq",
+      "Duration": 0,
+      "Value": "471000"
+    },
+    {
+      "PowerHint": "APP_START",
+      "Node": "TAUClampBoost",
+      "Duration": 0,
+      "Value": "765"
+    },
+    {
+      "PowerHint": "APP_START",
+      "Node": "FGUClampBoost",
+      "Duration": 0,
+      "Value": "159"
+    },
+    {
+      "PowerHint": "APP_START",
+      "Node": "TAPreferHighCap",
+      "Duration": 0,
+      "Value": "1"
+    },
+    {
+      "PowerHint": "APP_START",
+      "Node": "TAPreferIdle",
+      "Duration": 0,
+      "Value": "1"
+    },
+    {
+      "PowerHint": "APP_START",
+      "Node": "FGPreferIdle",
+      "Duration": 0,
+      "Value": "1"
+    },
+    {
+      "PowerHint": "APP_START",
+      "Node": "ReducePreferIdle",
+      "Duration": 0,
+      "Value": "0"
+    },
+    {
+      "PowerHint": "APP_START",
+      "Node": "CPUDVFSHeadroom",
+      "Duration": 0,
+      "Value": "1280"
+    },
+    {
+      "PowerHint": "APP_START",
+      "Node": "CPUTaperedDVFSHeadroomEnable",
+      "Duration": 0,
+      "Value": "0"
+    },
+    {
+      "PowerHint": "UI_ANIMATION",
+      "Node": "CPUBigClusterMinFreq",
+      "Duration": 0,
+      "Value": "1106000"
+    },
+    {
+      "PowerHint": "UI_ANIMATION",
+      "Node": "CPUMidClusterMinFreq",
+      "Duration": 0,
+      "Value": "1197000"
+    },
+    {
+      "PowerHint": "UI_ANIMATION",
+      "Node": "CPUBigClusterDownRateLimitUs",
+      "Duration": 0,
+      "Value": "20000"
+    },
+    {
+      "PowerHint": "UI_ANIMATION",
+      "Node": "CPUMidClusterDownRateLimitUs",
+      "Duration": 0,
+      "Value": "20000"
+    },
+    {
+      "PowerHint": "UI_ANIMATION",
+      "Node": "GPUMinFreq",
+      "Duration": 0,
+      "Value": "302000"
+    },
+    {
+      "PowerHint": "UI_ANIMATION",
+      "Node": "TAUClampBoost",
+      "Duration": 0,
+      "Value": "765"
+    },
+    {
+      "PowerHint": "UI_ANIMATION",
+      "Node": "TAPreferHighCap",
+      "Duration": 0,
+      "Value": "1"
+    },
+    {
+      "PowerHint": "UI_ANIMATION",
+      "Node": "TAPreferIdle",
+      "Duration": 0,
+      "Value": "1"
+    },
+    {
+      "PowerHint": "UI_ANIMATION",
+      "Node": "CPUDVFSHeadroom",
+      "Duration": 0,
+      "Value": "1280"
+    },
+    {
+      "PowerHint": "SYSTEM_UI",
+      "Node": "CPUBigClusterMaxFreq",
+      "Duration": 0,
+      "Value": "9999999"
+    },
+    {
+      "PowerHint": "SYSTEM_UI",
+      "Node": "CPUBigClusterMinFreq",
+      "Duration": 0,
+      "Value": "1826000"
+    },
+    {
+      "PowerHint": "SYSTEM_UI",
+      "Node": "CPUMidClusterMaxFreq",
+      "Duration": 0,
+      "Value": "9999999"
+    },
+    {
+      "PowerHint": "SYSTEM_UI",
+      "Node": "CPUMidClusterMinFreq",
+      "Duration": 0,
+      "Value": "1836000"
+    },
+    {
+      "PowerHint": "SYSTEM_UI",
+      "Node": "CPULittleClusterMaxFreq",
+      "Duration": 0,
+      "Value": "9999999"
+    },
+    {
+      "PowerHint": "SYSTEM_UI",
+      "Node": "CPULittleClusterMinFreq",
+      "Duration": 0,
+      "Value": "1197000"
+    },
+    {
+      "PowerHint": "SYSTEM_UI",
+      "Node": "CPUBigClusterDownRateLimitUs",
+      "Duration": 0,
+      "Value": "20000"
+    },
+    {
+      "PowerHint": "SYSTEM_UI",
+      "Node": "CPUMidClusterDownRateLimitUs",
+      "Duration": 0,
+      "Value": "20000"
+    },
+    {
+      "PowerHint": "SYSTEM_UI",
+      "Node": "CPULittleClusterDownRateLimitUs",
+      "Duration": 0,
+      "Value": "5000"
+    },
+    {
+      "PowerHint": "SYSTEM_UI",
+      "Node": "MemFreq",
+      "Duration": 0,
+      "Value": "3172000"
+    },
+    {
+      "PowerHint": "SYSTEM_UI",
+      "Node": "IntFreq",
+      "Duration": 0,
+      "Value": "533000"
+    },
+    {
+      "PowerHint": "SYSTEM_UI",
+      "Node": "GPUMinFreq",
+      "Duration": 0,
+      "Value": "471000"
+    },
+    {
+      "PowerHint": "SYSTEM_UI",
+      "Node": "TAUClampBoost",
+      "Duration": 0,
+      "Value": "765"
+    },
+    {
+      "PowerHint": "SYSTEM_UI",
+      "Node": "FGUClampBoost",
+      "Duration": 0,
+      "Value": "159"
+    },
+    {
+      "PowerHint": "SYSTEM_UI",
+      "Node": "TAPreferHighCap",
+      "Duration": 0,
+      "Value": "1"
+    },
+    {
+      "PowerHint": "SYSTEM_UI",
+      "Node": "TAPreferIdle",
+      "Duration": 0,
+      "Value": "1"
+    },
+    {
+      "PowerHint": "SYSTEM_UI",
+      "Node": "CPUDVFSHeadroom",
+      "Duration": 0,
+      "Value": "1280"
+    },
+    {
+      "PowerHint": "FLING",
+      "Node": "CPUBigClusterMinFreq",
+      "Duration": 0,
+      "Value": "1106000"
+    },
+    {
+      "PowerHint": "FLING",
+      "Node": "CPUMidClusterMinFreq",
+      "Duration": 0,
+      "Value": "1197000"
+    },
+    {
+      "PowerHint": "FLING",
+      "Node": "MemFreq",
+      "Duration": 0,
+      "Value": "1352000"
+    },
+    {
+      "PowerHint": "FLING",
+      "Node": "TAUClampBoost",
+      "Duration": 0,
+      "Value": "765"
+    },
+    {
+      "PowerHint": "FLING",
+      "Node": "TAPreferHighCap",
+      "Duration": 0,
+      "Value": "1"
+    },
+    {
+      "PowerHint": "FLING",
+      "Node": "TAPreferIdle",
+      "Duration": 0,
+      "Value": "1"
+    },
+    {
+      "PowerHint": "FLING",
+      "Node": "CPUDVFSHeadroom",
+      "Duration": 0,
+      "Value": "1280"
+    },
+    {
+      "PowerHint": "CPU_BENCHMARK",
+      "Node": "CPUBigClusterMaxFreq",
+      "Duration": 0,
+      "Value": "9999999"
+    },
+    {
+      "PowerHint": "CPU_BENCHMARK",
+      "Node": "CPUBigClusterMinFreq",
+      "Duration": 0,
+      "Value": "1826000"
+    },
+    {
+      "PowerHint": "CPU_BENCHMARK",
+      "Node": "CPUMidClusterMaxFreq",
+      "Duration": 0,
+      "Value": "9999999"
+    },
+    {
+      "PowerHint": "CPU_BENCHMARK",
+      "Node": "CPUMidClusterMinFreq",
+      "Duration": 0,
+      "Value": "1836000"
+    },
+    {
+      "PowerHint": "CPU_BENCHMARK",
+      "Node": "CPULittleClusterMaxFreq",
+      "Duration": 0,
+      "Value": "9999999"
+    },
+    {
+      "PowerHint": "CPU_BENCHMARK",
+      "Node": "CPULittleClusterMinFreq",
+      "Duration": 0,
+      "Value": "1197000"
+    },
+    {
+      "PowerHint": "CPU_BENCHMARK",
+      "Node": "MemFreq",
+      "Duration": 0,
+      "Value": "3172000"
+    },
+    {
+      "PowerHint": "CPU_BENCHMARK",
+      "Node": "IntFreq",
+      "Duration": 0,
+      "Value": "533000"
+    },
+    {
+      "PowerHint": "CPU_BENCHMARK",
+      "Node": "TAUClampBoost",
+      "Duration": 0,
+      "Value": "765"
+    },
+    {
+      "PowerHint": "CPU_BENCHMARK",
+      "Node": "FGUClampBoost",
+      "Duration": 0,
+      "Value": "159"
+    },
+    {
+      "PowerHint": "CPU_BENCHMARK",
+      "Node": "TAPreferHighCap",
+      "Duration": 0,
+      "Value": "1"
+    },
+    {
+      "PowerHint": "CPU_BENCHMARK",
+      "Node": "TAPreferIdle",
+      "Duration": 0,
+      "Value": "1"
+    },
+    {
+      "PowerHint": "CPU_BENCHMARK",
+      "Node": "ReducePreferIdle",
+      "Duration": 0,
+      "Value": "0"
+    },
+    {
+      "PowerHint": "CPU_BENCHMARK",
+      "Node": "CPUDVFSHeadroom",
+      "Duration": 0,
+      "Value": "1280"
+    },
+    {
+      "PowerHint": "CPU_BENCHMARK",
+      "Node": "GPUMinFreq",
+      "Duration": 0,
+      "Value": "302000"
+    },
+    {
+      "PowerHint": "GPU_BENCHMARK",
+      "Node": "GPUMinFreq",
+      "Duration": 0,
+      "Value": "848000"
+    },
+    {
+      "PowerHint": "GPU_BENCHMARK",
+      "Node": "MemFreq",
+      "Duration": 0,
+      "Value": "3172000"
+    },
+    {
+      "PowerHint": "GPU_BENCHMARK",
+      "Node": "IntFreq",
+      "Duration": 0,
+      "Value": "533000"
+    },
+    {
+      "PowerHint": "GPU_BENCHMARK",
+      "Node": "CPUBigClusterMaxFreq",
+      "Duration": 0,
+      "Value": "1826000"
+    },
+    {
+      "PowerHint": "GPU_BENCHMARK",
+      "Node": "TAUClampBoost",
+      "Duration": 0,
+      "Value": "765"
+    },
+    {
+      "PowerHint": "GPU_BENCHMARK",
+      "Node": "TAPreferHighCap",
+      "Duration": 0,
+      "Value": "1"
     }
   ],
   "AdpfConfig": [
