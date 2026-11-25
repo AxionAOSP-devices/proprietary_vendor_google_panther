@@ -277,8 +277,8 @@
       "Name": "MLUclampBoost",
       "Path": "/proc/vendor_sched/groups/nnapi/uclamp_min",
       "Values": [
-          "225",
-          "813"
+        "225",
+        "813"
       ],
       "DefaultIndex": 0,
       "ResetOnInit": true
@@ -910,8 +910,8 @@
     {
       "PowerHint": "LAUNCH",
       "Node": "TAUclampMinOnNiceHighValue",
-       "Duration": 5000,
-       "Value": "765"
+      "Duration": 5000,
+      "Value": "765"
     },
     {
       "PowerHint": "LAUNCH",
@@ -922,8 +922,8 @@
     {
       "PowerHint": "LAUNCH",
       "Node": "TAUclampMinOnNiceMidValue",
-       "Duration": 5000,
-       "Value": "590"
+      "Duration": 5000,
+      "Value": "590"
     },
     {
       "PowerHint": "LAUNCH",
@@ -2043,13 +2043,13 @@
     {
       "PowerHint": "DISPLAY_IDLE",
       "Type": "MaskHint",
-      "Value":"DISPLAY_UPDATE_IMMINENT",
+      "Value": "DISPLAY_UPDATE_IMMINENT",
       "EnableProperty": "vendor.powerhal.mode.aa"
     },
     {
       "PowerHint": "DISPLAY_IDLE",
       "Type": "MaskHint",
-      "Value":"CPU_LOAD_RESET",
+      "Value": "CPU_LOAD_RESET",
       "EnableProperty": "vendor.powerhal.mode.aa"
     },
     {
@@ -2344,7 +2344,7 @@
       "PowerHint": "APP_START",
       "Node": "CPULittleClusterMinFreq",
       "Duration": 0,
-      "Value": "1197000"
+      "Value": "1401000"
     },
     {
       "PowerHint": "APP_START",
@@ -2753,6 +2753,30 @@
       "Node": "TAPreferHighCap",
       "Duration": 0,
       "Value": "1"
+    },
+    {
+      "PowerHint": "UI_ANIMATION",
+      "Node": "CPULittleClusterMinFreq",
+      "Duration": 0,
+      "Value": "1197000"
+    },
+    {
+      "PowerHint": "UI_ANIMATION",
+      "Node": "MemFreq",
+      "Duration": 0,
+      "Value": "1352000"
+    },
+    {
+      "PowerHint": "FLING",
+      "Node": "CPULittleClusterMinFreq",
+      "Duration": 0,
+      "Value": "1197000"
+    },
+    {
+      "PowerHint": "FLING",
+      "Node": "GPUMinFreq",
+      "Duration": 0,
+      "Value": "302000"
     }
   ],
   "AdpfConfig": [
@@ -2786,8 +2810,14 @@
       "HBoostOffMaxAvgDurRatio": 4.0,
       "HBoostSevereJankPidPu": 0.5,
       "HBoostSevereJankThreshold": 8,
-      "HBoostUclampMinCeilingRange": [480, 722],
-      "HBoostUclampMinFloorRange": [230, 410],
+      "HBoostUclampMinCeilingRange": [
+        480,
+        722
+      ],
+      "HBoostUclampMinFloorRange": [
+        230,
+        410
+      ],
       "JankCheckTimeFactor": 1.2,
       "LowFrameRateThreshold": 25,
       "MaxRecordsNum": 300
@@ -2822,8 +2852,14 @@
       "HBoostOffMaxAvgDurRatio": 4.0,
       "HBoostSevereJankPidPu": 0.5,
       "HBoostSevereJankThreshold": 8,
-      "HBoostUclampMinCeilingRange": [480, 722],
-      "HBoostUclampMinFloorRange": [230, 410],
+      "HBoostUclampMinCeilingRange": [
+        480,
+        722
+      ],
+      "HBoostUclampMinFloorRange": [
+        230,
+        410
+      ],
       "JankCheckTimeFactor": 1.2,
       "LowFrameRateThreshold": 25,
       "MaxRecordsNum": 300
@@ -2858,8 +2894,14 @@
       "HBoostOffMaxAvgDurRatio": 4.0,
       "HBoostSevereJankPidPu": 0.5,
       "HBoostSevereJankThreshold": 8,
-      "HBoostUclampMinCeilingRange": [480, 722],
-      "HBoostUclampMinFloorRange": [230, 410],
+      "HBoostUclampMinCeilingRange": [
+        480,
+        722
+      ],
+      "HBoostUclampMinFloorRange": [
+        230,
+        410
+      ],
       "JankCheckTimeFactor": 1.2,
       "LowFrameRateThreshold": 25,
       "MaxRecordsNum": 300
@@ -2894,8 +2936,14 @@
       "HBoostOffMaxAvgDurRatio": 4.0,
       "HBoostSevereJankPidPu": 0.5,
       "HBoostSevereJankThreshold": 8,
-      "HBoostUclampMinCeilingRange": [480, 722],
-      "HBoostUclampMinFloorRange": [230, 410],
+      "HBoostUclampMinCeilingRange": [
+        480,
+        722
+      ],
+      "HBoostUclampMinFloorRange": [
+        230,
+        410
+      ],
       "JankCheckTimeFactor": 1.2,
       "LowFrameRateThreshold": 25,
       "MaxRecordsNum": 300
